@@ -17,7 +17,7 @@ const API_Key = "uTKUl3qvX7eArVjvzWAjgKXGbnf66Iyy"
 fetch(
     `https://api.giphy.com/v1/gifs/translate?api_key=${API_Key}&s=party`,
     { mode: "cors" }
-  ).then((res) => res.json();
+  ).then((res) => res.json()
   ).then((data) => console.log(data));
 
 // Exercise 3 Section
